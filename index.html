@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+    <head>
+        <title>J2D2 Development</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Inconsolata" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+        <link href="./lib/main.css" rel="stylesheet">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
+        <script src="./lib/index.js"></script>
+    </head>
+
+    <body>
+        <div id="pagetop"></div>
+        <header class="header-sticky">
+            <div class="header-sticky--wrapper">
+                <div class="logo-left">
+                    <a href="#pagetop">
+                        J2D2 Development
+                    </a>
+                </div>
+                <ul class="mobile-hide">
+                    <li>About</li>
+                    <li>Work</li>
+                    <li>
+                        <a href="https://j2d2development.wordpress.com/">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="mobile-menu-wrapper">
+                <i id="menu-show" class="fa fa-bars mobile-show-flex" aria-hidden="true"></i>
+                <ul class="mobile-menu mobile-menu-hide">
+                    <li>About</li>
+                    <li>Work</li>
+                    <li>
+                    <a href="https://j2d2development.wordpress.com/">
+                    Blog
+                </a>
+                    </li>
+                    <li>
+                    <a href="#contact">
+                    Contact
+                </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </header>
+        <div class="bg-img">
+        <div class="screen-white-lg">
+            <div class="hero-left">
+            </div>
+            <div class="hero-right">
+            Joe Driscoll
+            <small>Full Stack Web Developer</small>
+            <small>JS | CSS | PHP | Python | .NET</small>
+            </div>
+        </div>
+        </div>
+        <div class="main">
+        <h1 id="header-one">
+            Make it fast - Make it work - Make it better
+            <small class="subheader">Prototyping and Proof of Concepts in CodePen</small>
+            <hr class="j2d2" />
+        </h1>
+
+        <div class="featured" id="featured-row-one">
+            <div class="featured-col featured-col--left" id="featured-col-one--left">
+            <h2>
+                <i class="fa fa-user" aria-hidden="true"></i>
+                UI and JS
+                <small>User Profile Slideout</small>
+            </h2>
+
+            <div class="featured-col--text">
+                A quick and dirty initial prototype for a new user profile edit slidout feature. This was eventually added to a production product after adding JS validation and linking it to our PHP backend.
+                <div class="primary-color--link--wrapper">
+                <a class="primary-color--link" href="http://codepen.io/joedriscoll79/pen/GqQggZ">Learn More</a>
+                </div>
+            </div>
+            </div>
+            <div class="featured-col featured-col--center" id="featured-col-one--center">
+            <h2>
+                <i class="fa fa-twitch" aria-hidden="true"></i>
+                Angular 1.5
+                <small>Twitch User Viewer</small>
+            </h2>
+            <div class="featured-col--text">
+                I found <a href="http://www.freecodecamp.com">FreeCodeCamp</a> to be a great resource for projects to practice the latest web development processes and techniques. This one uses Angular and custom css to allow the user to view different profiles
+                and previews.
+                <div class="primary-color--link--wrapper">
+                <a class="primary-color--link" href="http://codepen.io/joedriscoll79/pen/BKJQNa">Learn More</a>
+                </div>
+            </div>
+            </div>
+            <div class="featured-col featured-col--right" id="featured-col-one--right">
+            <h2>
+                <i class="fa fa-picture-o" aria-hidden="true"></i>
+                Vanilla JS
+                <small>Slider with indicators</small>
+            </h2>
+            <div class="featured-col--text">
+                A client wanted a sliding banner to welcome new residents. It was a fresh project, so used just JS/CSS to mock up an option. No controls, though they were added to a different version in production (warning: crazy colors for demo purposes only!).
+                <div class="primary-color--link--wrapper">
+                <a class="primary-color--link" href="http://codepen.io/joedriscoll79/pen/BzrbaY">Learn More</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <h1 id="header-two" class="work-bg">
+            <div class="screen-white-md">
+            <div id="header-two-text" class="hidden-scale">
+                Real world projects - Real world solutions
+                <small class="subheader subheader-light">Examples of projects currently live in production</small>
+            </div>
+            </div>
+        </h1>
+
+        <div class="featured">
+            <div class="featured-col">
+            <h2>
+                Case Study 1
+                <small>The MEAN Stack</small>
+            </h2>
+
+            <div class="featured-col--text">
+                I was assigned the task to create a backend for an internal marketing site with an Angular frontend. Given the freedom to pick the backend, I went with NodeJS and MongoDB.
+                <div class="primary-color--link--wrapper">
+                <a class="primary-color--link">Learn More</a>
+                </div>
+            </div>
+            </div>
+            <div class="featured-col">
+            <h2>
+                Case Study 2
+                <small>Javascript | jQuery</small>
+            </h2>
+            <div class="featured-col--text">
+                The online forms feature needed a refresh. The system was a bit outdated, so I went with a simple approch: jQuery to show real-time validation and ajax to submit the form.
+                <div class="primary-color--link--wrapper">
+                <a class="primary-color--link">Learn More</a>
+                </div>
+            </div>
+            </div>
+            <div class="featured-col">
+            <h2>
+                Case Study 3
+                <small>Python / Django</small>
+            </h2>
+            <div class="featured-col--text">
+                The website was to be built in Angular 1.5 with a Python/Django backend. I got to work on both- helping with the routing and multiple modules on the front end, and creating the back end structure.
+                <div class="primary-color--link--wrapper">
+                <a class="primary-color--link">Learn More</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="contact-text">
+            <h1>Contact</h1>
+            <hr /> Want to work together? Get in touch!
+            </div>
+            <div class="contact-form" id="contact-form">
+            --react form here--
+            </div>
+        </div>
+        </div>
+        <footer class="footer-dark">
+        <div class="footer-dark--wrapper">
+            <div class="footer-left">
+            J2D2 is Joe Driscoll
+            </div>
+            <div class="footer-right">
+            <a href="https://github.com/j2d2development">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="http://codepen.io/joedriscoll79">
+                <i class="fa fa-codepen" aria-hidden="true"></i>
+            </a>
+            <a href="https://j2d2development.wordpress.com/">
+                <i class="fa fa-wordpress" aria-hidden="true"></i>
+            </a>
+            </div>
+        </div>
+        </footer>
+    </body>
+</html>
